@@ -1,0 +1,5 @@
+---
+- hosts: ubuntu_wsl
+  roles:
+    - role: commons
+      tags: [commons]
