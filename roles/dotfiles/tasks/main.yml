@@ -1,0 +1,3 @@
+---
+- name: include Bash tasks
+  include_tasks: bash.yml

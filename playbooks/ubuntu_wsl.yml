@@ -3,3 +3,5 @@
   roles:
     - role: commons
       tags: [commons]
+    - role: dotfiles
+      tags: [dotfiles]
