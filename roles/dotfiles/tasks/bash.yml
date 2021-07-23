@@ -1,8 +1,18 @@
 ---
-- name: Copy bashrc 
+- name: ~/.bashrc file exists and is up to date
   copy:
     src: bash/bashrc
     dest: /home/slefort/.bashrc
     owner: slefort
     group: slefort
     mode: '0644'
+
+- name: ~/.bashrc.d directory exists
+  file:
+    path: /home/slefort/.bashrc.d/
+    state: directory
+
+- name: ~/.bashrc.d/aliases.bashrc
+  copy:
+    src: bash/bashrc.d/aliases.bashrc
+    dest: /home/slefort/.bashrc.d/aliases.bashrc
