@@ -1,0 +1,5 @@
+---
+- name: Copy vimrc
+  copy:
+    src: vim/vimrc
+    dest: /home/slefort/.vimrc
