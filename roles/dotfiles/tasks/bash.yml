@@ -1,1 +1,8 @@
 ---
+- name: Copy bashrc 
+  copy:
+    src: bash/bashrc
+    dest: /home/slefort/.bashrc
+    owner: slefort
+    group: slefort
+    mode: '0644'
