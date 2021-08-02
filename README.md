@@ -8,7 +8,7 @@
 
 ## Run a playbook
 
-	$ ANSIBLE_CONFIG=ansible.cfg ansible-playbook -i inventory playbooks/ubuntu_wsl.yml
+	$ sudo make ansible
 
 ## TODO List
 * Setup Ansible on Ubuntu/WSL 
