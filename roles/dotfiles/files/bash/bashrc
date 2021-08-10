@@ -118,3 +118,4 @@ fi
 
 # Include other custom bash setup
 source ~/.bashrc.d/aliases.bashrc
+source ~/.bashrc.d/wsl.bashrc
