@@ -12,7 +12,12 @@
     path: /home/slefort/.bashrc.d/
     state: directory
 
-- name: ~/.bashrc.d/aliases.bashrc
+- name: aliases.bashrc exists
   copy:
     src: bash/bashrc.d/aliases.bashrc
     dest: /home/slefort/.bashrc.d/aliases.bashrc
+
+- name: wsl.bashrc exists
+  copy:
+    src: bash/bashrc.d/wsl.bashrc
+    dest: /home/slefort/.bashrc.d/wsl.bashrc
